@@ -1,0 +1,92 @@
+{
+  "title": "Primeiros Socorros (base SAMU/PS + AHA)",
+  "intro": "Conteúdo educacional. Para certificação e protocolos formais, utilize instrutor habilitado e diretrizes oficiais do serviço/local.",
+  "sections": [
+    {
+      "h": "1) Segurança da cena e acionamento",
+      "p": [
+        "Verifique segurança (fogo, eletricidade, trânsito, produtos químicos). Não vire vítima.",
+        "Chame ajuda: 192 (SAMU) e/ou 193 (Bombeiros), conforme necessidade.",
+        "Avalie nível de resposta e respiração; peça para alguém buscar DEA se houver."
+      ],
+      "img": [
+        {
+          "code": "IMG-AID-001",
+          "name": "Fluxo de avaliação inicial (infográfico)"
+        }
+      ]
+    },
+    {
+      "h": "2) RCP e DEA (adulto) — princípios",
+      "p": [
+        "Basear treinamento em diretrizes reconhecidas (ex.: AHA 2020 CPR/ECC).",
+        "Compressões: fortes e rápidas no centro do tórax; minimizar interrupções.",
+        "DEA: ligar, colar pás, afastar todos na análise/choque; retomar compressões imediatamente após."
+      ],
+      "img": [
+        {
+          "code": "IMG-AID-002",
+          "name": "Posição das mãos e ritmo de compressões (infográfico)"
+        },
+        {
+          "code": "IMG-AID-003",
+          "name": "DEA — sequência visual (infográfico)"
+        }
+      ]
+    },
+    {
+      "h": "3) OVACE (engasgo) — adulto/criança",
+      "p": [
+        "Se consegue tossir/falar: incentive tosse.",
+        "Se não consegue: aplicar manobras de desobstrução conforme treinamento (ex.: compressões abdominais em adulto consciente).",
+        "Inconsciente: iniciar RCP e checar objeto visível na boca (não varrer às cegas)."
+      ],
+      "img": [
+        {
+          "code": "IMG-AID-004",
+          "name": "Engasgo: árvore de decisão (infográfico)"
+        }
+      ]
+    },
+    {
+      "h": "4) Hemorragias, choque e curativos",
+      "p": [
+        "Pressão direta no sangramento, curativo compressivo; torniquete apenas quando indicado e com treinamento.",
+        "Sinais de choque: pele fria/pálida, sudorese, confusão, pulso fraco; manter aquecido, acionar socorro.",
+        "Evitar dar comida/bebida; monitorar até chegada do resgate."
+      ],
+      "img": [
+        {
+          "code": "IMG-AID-005",
+          "name": "Kit de primeiros socorros e curativo compressivo (foto)"
+        }
+      ]
+    },
+    {
+      "h": "5) Queimaduras",
+      "p": [
+        "Resfriar com água corrente em temperatura ambiente por tempo adequado (sem gelo direto).",
+        "Cobrir com pano limpo; não estourar bolhas; buscar avaliação médica em casos extensos/face/mãos/genitais/inalação.",
+        "Queimadura elétrica: desligar fonte antes de tocar; chamar 193/192."
+      ],
+      "img": [
+        {
+          "code": "IMG-AID-006",
+          "name": "Cuidados iniciais em queimaduras (infográfico)"
+        }
+      ]
+    },
+    {
+      "h": "Lei Lucas (contexto educacional)",
+      "p": [
+        "A Lei 13.722/2018 torna obrigatória a capacitação em noções básicas de primeiros socorros para professores e funcionários de escolas e recreação infantil, reforçando a importância do treinamento padronizado."
+      ],
+      "img": [
+        {
+          "code": "IMG-AID-007",
+          "name": "Cartaz: Lei Lucas — resumo (arte)"
+        }
+      ]
+    }
+  ]
+}

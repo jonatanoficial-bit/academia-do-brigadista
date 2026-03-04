@@ -1,0 +1,26 @@
+{
+  "title": "Avaliação (Prova Final)",
+  "intro": "Aqui você poderá inserir um Google Forms (embed) para prova final e certificação.",
+  "sections": [
+    {
+      "h": "1) Como funciona",
+      "p": [
+        "Cole o código de incorporação (iframe) do Google Forms no Admin para exibir a prova aqui.",
+        "Você também pode incluir um banco de questões local (DLC futura)."
+      ],
+      "img": [
+        {
+          "code": "IMG-EVAL-001",
+          "name": "Tela de prova em smartphone (mock)"
+        }
+      ]
+    },
+    {
+      "h": "2) Embed do Google Forms",
+      "p": [
+        "Se o embed ainda não estiver configurado, aparecerá um aviso e um botão para abrir o Admin."
+      ],
+      "embed": ""
+    }
+  ]
+}

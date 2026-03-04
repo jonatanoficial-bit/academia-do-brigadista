@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+  <meta name="theme-color" content="#050816"/>
+  <title>Admin — Academia do Brigadista</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <img id="logo" alt="Logo"/>
+      <div class="title">
+        <strong>Admin</strong>
+        <span id="buildInfo">build …</span>
+      </div>
+    </div>
+    <a class="btn ghost" href="index.html">Voltar</a>
+  </header>
+
+  <main class="container">
+    <section class="card pad" id="loginCard">
+      <h1 class="h1">Login</h1>
+      <p class="p">Modo local (static). No futuro, este módulo pode ser ligado a backend (sem alterar o core).</p>
+
+      <div class="grid">
+        <div>
+          <div class="field">
+            <label>Usuário</label>
+            <input class="input" id="u" placeholder="admin"/>
+          </div>
+          <div class="field">
+            <label>Senha</label>
+            <input class="input" id="p" type="password" placeholder="••••••••"/>
+          </div>
+          <div class="row" style="margin-top:12px">
+            <button class="btn primary" id="loginBtn">Entrar</button>
+          </div>
+        </div>
+        <div class="kbd">
+          <strong>Dica</strong><br/>
+          Troque usuário/senha em <code>app.config.js</code> (por enquanto).
+        </div>
+      </div>
+    </section>
+
+    <section class="card pad" id="panel" style="display:none">
+      <div class="row" style="justify-content:space-between; align-items:center">
+        <h1 class="h1" style="margin:0">Painel</h1>
+        <div class="row">
+          <button class="btn ghost" id="logoutBtn">Sair</button>
+        </div>
+      </div>
+      <p class="p">Gerencie conteúdo (core/DLC), configurações e segurança do navegador.</p>
+
+      <hr class="sep"/>
+
+      <div class="grid">
+        <div class="card pad" style="background: rgba(255,255,255,0.03); border-color: rgba(255,255,255,0.10)">
+          <h2 class="h1">Avaliação (Google Forms)</h2>
+          <p class="p">Cole o código <code>&lt;iframe ...&gt;&lt;/iframe&gt;</code> do Google Forms.</p>
+          <textarea id="embed" class="input" style="height:140px; padding:12px; line-height:1.4; border-radius:16px"></textarea>
+          <div class="row" style="margin-top:10px">
+            <button class="btn primary" id="saveEmbed">Salvar</button>
+            <button class="btn ghost" id="clearEmbed">Limpar</button>
+          </div>
+        </div>
+
+        <div class="card pad" style="background: rgba(255,255,255,0.03); border-color: rgba(255,255,255,0.10)">
+          <h2 class="h1">DLCs (ativar/desativar)</h2>
+          <p class="p">Para GitHub Pages, DLCs remotos precisam estar listados em <code>/content/dlc/index.json</code>. Você também pode importar DLC local aqui.</p>
+          <div id="dlcList" class="p"></div>
+          <div class="row" style="margin-top:10px">
+            <button class="btn ghost" id="importDlcBtn">Importar DLC (JSON)</button>
+            <button class="btn ghost" id="exportLocalDlcs">Exportar DLCs locais</button>
+          </div>
+          <input type="file" id="importFile" accept="application/json" style="display:none"/>
+        </div>
+      </div>
+
+      <hr class="sep"/>
+
+      <div class="grid">
+        <div class="card pad" style="background: rgba(255,255,255,0.03); border-color: rgba(255,255,255,0.10)">
+          <h2 class="h1">Seriais válidos (build atual)</h2>
+          <p class="p">Lista gerada nesta build (para você distribuir). Dica: mantenha esses códigos em local seguro.</p>
+          <div class="kbd" id="serialsBox" style="white-space:pre-wrap"></div>
+        </div>
+
+        <div class="card pad" style="background: rgba(255,255,255,0.03); border-color: rgba(255,255,255,0.10)">
+          <h2 class="h1">Segurança (navegador)</h2>
+          <p class="p">Ações locais (localStorage). Não afeta outros navegadores/usuários.</p>
+          <div class="row">
+            <button class="btn danger" id="resetSerial">Resetar acesso por serial</button>
+            <button class="btn ghost" id="resetAll">Resetar tudo (config + DLC local)</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        Criado por <strong>Jonatan Vale</strong> — <strong>Academia do Brigadista</strong>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.config.js"></script>
+  <script type="module" src="js/admin.js"></script>
+</body>
+</html>

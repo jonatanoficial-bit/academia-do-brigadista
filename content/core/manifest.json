@@ -1,0 +1,66 @@
+{
+  "id": "core",
+  "name": "Academia do Brigadista — Core",
+  "version": "1.0.0",
+  "updated_at": "2026-03-04 14:31:53",
+  "tabs": [
+    {
+      "id": "fire",
+      "title": "Brigada & Combate",
+      "icon": "flame",
+      "bg": "assets/bg/cinematic-red.svg",
+      "file": "fire.json"
+    },
+    {
+      "id": "first_aid",
+      "title": "Primeiros Socorros",
+      "icon": "heart",
+      "bg": "assets/bg/cinematic-blue.svg",
+      "file": "first_aid.json"
+    },
+    {
+      "id": "prevention",
+      "title": "Prevenção & Rotas",
+      "icon": "route",
+      "bg": "assets/bg/cinematic-gold.svg",
+      "file": "prevention.json"
+    },
+    {
+      "id": "evaluation",
+      "title": "Avaliação",
+      "icon": "shield",
+      "bg": "assets/bg/cinematic-blue.svg",
+      "file": "evaluation.json"
+    }
+  ],
+  "references": [
+    {
+      "label": "NR-23 (MTE) — Proteção contra Incêndios (PDF)",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras/nr-23-atualizada-2022.pdf"
+    },
+    {
+      "label": "Decreto SP 69.118/2024 — Regulamento de Segurança Contra Incêndios (ALESP)",
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/2024/decreto-69118-09.12.2024.html"
+    },
+    {
+      "label": "CBPMESP — IT 17/2025 Brigada de Incêndio (PDF espelho)",
+      "url": "https://guiasegci.com.br/wp-content/uploads/2025/03/IT-17-25-Brigada-de-incendio.pdf"
+    },
+    {
+      "label": "CBPMESP — IT 21/2025 Extintores (PDF espelho)",
+      "url": "https://guiasegci.com.br/wp-content/uploads/2025/03/IT-21-25-Sistema-de-protecao-por-extintores-de-incendio.pdf"
+    },
+    {
+      "label": "Lei 13.722/2018 (Lei Lucas) — Planalto",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13722.htm"
+    },
+    {
+      "label": "AHA 2020 CPR/ECC Highlights (PDF)",
+      "url": "https://cpr.heart.org/-/media/cpr-files/cpr-guidelines-files/highlights/hghlghts_2020_ecc_guidelines_english.pdf"
+    },
+    {
+      "label": "ABNT NBR 14276:2006 (Brigada de Incêndio — Requisitos) (cópia didática)",
+      "url": "https://cipa.iqsc.usp.br/files/2016/05/NBR-14276-Brigada-de-Inc%C3%AAndio.pdf"
+    }
+  ]
+}

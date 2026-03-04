@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+  <meta name="theme-color" content="#050816"/>
+  <title>Academia do Brigadista</title>
+  <link rel="icon" href="assets/logo-placeholder.svg" type="image/svg+xml"/>
+  <link rel="preload" href="css/styles.css" as="style"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <img id="logo" alt="Logo"/>
+      <div class="title">
+        <strong id="appName">Academia do Brigadista</strong>
+        <span id="buildInfo">build …</span>
+      </div>
+    </div>
+    <button class="btn ghost" id="adminBtn" title="Admin">
+      <span style="font-weight:700">Admin</span>
+    </button>
+  </header>
+
+  <main class="container">
+    <div class="grid">
+      <section class="card pad">
+        <h1 class="h1" id="screenTitle">Carregando…</h1>
+        <p class="p" id="screenIntro"></p>
+
+        <div id="sections"></div>
+
+        <hr class="sep"/>
+        <div class="row" style="justify-content:space-between; align-items:center">
+          <span class="badge">Referências (links)</span>
+          <span class="badge">SP • 2026</span>
+        </div>
+        <ul id="refs" class="p" style="margin-top:10px; padding-left:18px"></ul>
+
+        <div class="footer">
+          Criado por <strong>Jonatan Vale</strong> — <strong>Academia do Brigadista</strong>
+        </div>
+      </section>
+
+      <aside class="card pad">
+        <h2 class="h1">Guia rápido</h2>
+        <p class="p">Este app é <strong>mobile-first</strong> e funciona offline parcial (cache do navegador). Conteúdo pode ser expandido via <strong>DLC</strong> sem mexer no core.</p>
+
+        <div class="kbd">
+          <strong>Como usar</strong><br/>
+          • Navegue pelas abas abaixo<br/>
+          • As imagens estão como <em>placeholders</em> (códigos) para você gerar depois com IA e substituir em <code>/assets</code><br/>
+          • A prova final fica na aba <strong>Avaliação</strong> (embed do Google Forms via Admin)
+        </div>
+
+        <hr class="sep"/>
+
+        <div class="row">
+          <span class="badge">UI premium</span>
+          <span class="badge">Código limpo</span>
+          <span class="badge">Expansível</span>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <nav class="tabs" aria-label="Navegação principal">
+    <!-- JS renderiza -->
+  </nav>
+
+  <!-- Serial Gate -->
+  <div class="modal" role="dialog" aria-modal="true" aria-label="Acesso por serial">
+    <div class="box">
+      <div class="row" style="justify-content:space-between; align-items:flex-start">
+        <div>
+          <h2 class="h1" style="margin:0">Acesso por Serial</h2>
+          <p class="p" style="margin-top:6px">Informe seu serial no <strong>primeiro acesso</strong>. Depois, você não precisará digitar novamente neste navegador.</p>
+        </div>
+        <span class="badge">Segurança</span>
+      </div>
+      <div class="field">
+        <label for="serialInput">Serial</label>
+        <input class="input" id="serialInput" placeholder="XXXX-XXXX-XXXX-XXXX-XXXX" autocomplete="off" inputmode="latin"/>
+      </div>
+      <div class="row" style="margin-top:12px; justify-content:flex-end">
+        <button class="btn primary" id="serialBtn">Liberar acesso</button>
+      </div>
+      <p class="p" style="margin-top:10px; font-size:12px">Dica: se você trocar de navegador ou limpar dados do site, o serial será solicitado novamente.</p>
+    </div>
+  </div>
+
+  <script src="app.config.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

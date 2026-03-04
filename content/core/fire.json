@@ -1,0 +1,104 @@
+{
+  "title": "Brigada de Incêndio & Combate",
+  "intro": "Conteúdo educacional para brigadistas — com foco em São Paulo (CBPMESP) e boas práticas nacionais. Ajuste a carga horária e critérios conforme sua realidade e instrutor responsável.",
+  "sections": [
+    {
+      "h": "1) Conceitos essenciais e responsabilidades",
+      "p": [
+        "Objetivo da brigada: prevenir, atuar no princípio de incêndio, apoiar abandono de área e prestar primeiros socorros básicos, protegendo vidas e patrimônio (referência: ABNT NBR 14276).",
+        "Campo de aplicação em SP: as medidas seguem o Regulamento estadual e Instruções Técnicas do CBPMESP (ex.: IT 17/2025 — Brigada).",
+        "Treinamento e reciclagens: planejar ciclos periódicos, exercícios e rotinas compatíveis com o risco da ocupação (NR-23 também aborda exercícios e organização)."
+      ],
+      "img": [
+        {
+          "code": "IMG-FIRE-001",
+          "name": "Brigadistas em treinamento com EPIs (foto)"
+        },
+        {
+          "code": "IMG-FIRE-002",
+          "name": "Quadro-resumo de papéis: líder, brigadista, apoio (infográfico)"
+        }
+      ]
+    },
+    {
+      "h": "2) Classes de incêndio e agentes extintores",
+      "p": [
+        "Classes (didático): A (sólidos), B (líquidos inflamáveis), C (equip. energizados), D (metais pirofóricos), K/F (óleos e gorduras — cozinhas profissionais).",
+        "Agentes típicos: água (A), espuma (A/B), pó químico (B/C), CO₂ (B/C), classe D (metais), agente úmido/saponificação (cozinhas).",
+        "Nunca use água em equipamentos energizados ou líquidos inflamáveis sem avaliação — priorize segurança e isolamento de energia quando aplicável."
+      ],
+      "img": [
+        {
+          "code": "IMG-FIRE-003",
+          "name": "Tabela de classes de incêndio e agentes (infográfico)"
+        },
+        {
+          "code": "IMG-FIRE-004",
+          "name": "Extintores: água, PQS, CO₂, classe K (foto)"
+        }
+      ]
+    },
+    {
+      "h": "3) Extintores (SP) — noções práticas",
+      "p": [
+        "Em SP, requisitos de proteção por extintores e critérios técnicos são tratados na IT 21/2025 (CBPMESP).",
+        "Prática: técnica PASS (Puxar pino, Apontar, S pressionar, S varrer) — treinar com instrutor e ambiente controlado.",
+        "Inspeções/validade e conformidade (NR-23): usar extintores conformes a normas brasileiras e regulamentos técnicos do INMETRO."
+      ],
+      "img": [
+        {
+          "code": "IMG-FIRE-005",
+          "name": "Sequência PASS com setas e gestos (infográfico)"
+        },
+        {
+          "code": "IMG-FIRE-006",
+          "name": "Ponto de extintor sinalizado em parede (foto)"
+        }
+      ]
+    },
+    {
+      "h": "4) Hidrantes/mangotinhos — visão geral",
+      "p": [
+        "Sistemas de hidrantes/mangotinhos seguem instruções específicas do CBPMESP (ex.: IT 22 — não incluída aqui, mas recomendada como leitura complementar).",
+        "Noções: abrir abrigo, checar esguicho, desenrolar mangueira, abrir registro de forma controlada, operar em dupla sempre que possível.",
+        "Segurança: proteger vias respiratórias, avaliar rota de fuga e nunca avançar sem visibilidade/condição segura."
+      ],
+      "img": [
+        {
+          "code": "IMG-FIRE-007",
+          "name": "Abrigo de hidrante com mangueiras e esguicho (foto)"
+        },
+        {
+          "code": "IMG-FIRE-008",
+          "name": "Padrões de esguicho: neblina/jato (infográfico)"
+        }
+      ]
+    },
+    {
+      "h": "5) Procedimentos iniciais: alarme, isolamento e abandono",
+      "p": [
+        "Acionar alarme e chamar ajuda (193), informar endereço, ponto de referência e natureza do incêndio.",
+        "Isolar área, remover pessoas em risco, controlar energia/gás quando seguro.",
+        "Abandono: priorize rotas sinalizadas, manter calma, apoiar PCD e checar pontos de encontro."
+      ],
+      "img": [
+        {
+          "code": "IMG-FIRE-009",
+          "name": "Planta simplificada com rota de fuga e ponto de encontro (infográfico)"
+        }
+      ]
+    },
+    {
+      "h": "Checklist rápido (para imprimir)",
+      "p": [
+        "✅ Alarme/193 • ✅ Isolar área • ✅ Energia/Gás (se seguro) • ✅ Extintor correto • ✅ Rota de fuga • ✅ Comunicação • ✅ Ponto de encontro • ✅ Recontagem de pessoas"
+      ],
+      "img": [
+        {
+          "code": "IMG-FIRE-010",
+          "name": "Cartaz checklist A4 (arte)"
+        }
+      ]
+    }
+  ]
+}

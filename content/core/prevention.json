@@ -1,0 +1,65 @@
+{
+  "title": "Prevenção, Planejamento e Rotas de Fuga",
+  "intro": "Organize prevenção (redução de risco), prontidão (treinos) e resposta (abandono + comunicação).",
+  "sections": [
+    {
+      "h": "1) Prevenção no dia a dia (NR-23)",
+      "p": [
+        "Manter vias de circulação desobstruídas, controle de fontes de ignição, armazenamento correto de inflamáveis e sinalização.",
+        "Treinar exercícios/alerta e orientar pessoas sobre procedimentos e rotas (NR-23).",
+        "Manutenção preventiva: extintores, iluminação e sinalização de emergência conforme normas aplicáveis."
+      ],
+      "img": [
+        {
+          "code": "IMG-PREV-001",
+          "name": "Checklist de prevenção (infográfico)"
+        }
+      ]
+    },
+    {
+      "h": "2) Rotas de fuga e ponto de encontro",
+      "p": [
+        "Planejar rota primária e alternativa; mapear saídas e áreas de refúgio.",
+        "Definir ponto de encontro externo e processo de conferência de pessoas.",
+        "Simulados: medir tempo de abandono, corrigir gargalos e comunicar melhorias."
+      ],
+      "img": [
+        {
+          "code": "IMG-PREV-002",
+          "name": "Mapa de rota com setas e ponto de encontro (infográfico)"
+        },
+        {
+          "code": "IMG-PREV-003",
+          "name": "Placas de saída e sinalização (foto)"
+        }
+      ]
+    },
+    {
+      "h": "3) AVCB/CLCB (SP) — visão geral",
+      "p": [
+        "Em São Paulo, a regularização de segurança contra incêndios segue regulamento estadual (Decreto 69.118/2024) e Instruções Técnicas do CBPMESP.",
+        "AVCB/CLCB: documentos relacionados ao atendimento das medidas de segurança (dependendo do tipo/porte/uso). Consulte profissional habilitado e o CBPMESP para enquadramento correto."
+      ],
+      "img": [
+        {
+          "code": "IMG-PREV-004",
+          "name": "Fluxo: projeto → medidas → vistoria → regularização (infográfico)"
+        }
+      ]
+    },
+    {
+      "h": "4) Plano de emergência (modelo simples)",
+      "p": [
+        "Responsáveis: líder, suplente, comunicação, evacuação e primeiros socorros.",
+        "Meios: lista de telefones (193/192), chaves gerais, gás, painel elétrico, hidrantes/extintores.",
+        "Rotina: inspeções, treinamentos e relatório de não conformidades."
+      ],
+      "img": [
+        {
+          "code": "IMG-PREV-005",
+          "name": "Modelo 1 página de Plano de Emergência (arte)"
+        }
+      ]
+    }
+  ]
+}
