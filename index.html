@@ -1,247 +1,82 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
-  <meta name="theme-color" content="#050816"/>
-  <title>Academia do Brigadista</title>
-  <link rel="icon" href="assets/logo.png" type="image/png"/>
-  <link rel="preload" href="css/styles.css" as="style"/>
-  <link rel="stylesheet" href="css/styles.css"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Curso de Brigadista</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <div class="bg" aria-hidden="true"></div>
 
-  <header class="topbar">
-    <div class="brand">
-      <img id="logo" alt="Logo"/>
-      <div class="title">
-        <strong id="appName">Academia do Brigadista</strong>
-        <span id="buildInfo">build …</span>
-      </div>
-    </div>
-
-    <nav class="topnav" aria-label="Menu principal">
-      <a href="#inicio">Início</a>
-      <a href="#cursos">Cursos</a>
-      <a href="#conteudos">Conteúdos</a>
-      <a href="#contato">Contato</a>
-    </nav>
-
-    <button class="btn ghost" id="menuBtn" title="Menu" aria-label="Abrir menu">
-      <span style="font-weight:700">Menu</span>
-    </button>
-    <button class="btn ghost" id="adminBtn" title="Admin">
-      <span style="font-weight:700">Admin</span>
-    </button>
-  </header>
-
-  <!-- Menu mobile -->
-  <div class="menu-drawer" id="menuDrawer" aria-hidden="true">
-    <div class="menu-card">
-      <div class="row" style="justify-content:space-between; align-items:center">
-        <strong>Menu</strong>
-        <button class="btn ghost" id="menuCloseBtn" aria-label="Fechar menu">Fechar</button>
-      </div>
-      <div class="menu-links">
-        <a class="menu-link" href="#inicio">Início</a>
-        <a class="menu-link" href="#cursos">Cursos</a>
-        <a class="menu-link" href="#conteudos">Conteúdos</a>
-        <a class="menu-link" href="#contato">Contato</a>
-      </div>
-    </div>
+<header class="hero">
+  <div class="hero-overlay">
+    <h1>Brigadista</h1>
+    <p>Prevenção • Emergência • Combate a Incêndio • Primeiros Socorros</p>
   </div>
+</header>
 
-  <main class="container">
-    <!-- HERO -->
-    <section class="hero" id="inicio">
-      <div class="hero-inner card pad">
-        <div class="hero-grid">
-          <div>
-            <div class="row">
-              <span class="badge">Bombeiro • Resgate • Socorrista</span>
-              <span class="badge">Treinamento prático</span>
-            </div>
-            <h1 class="hero-title">Treinamento de Brigadista com foco em <span class="u">combate</span> e <span class="u">prevenção</span> de incêndio</h1>
-            <p class="p">A <strong>Academia do Brigadista</strong> oferece capacitação para equipes e empresas, com conteúdo didático, checklists, simulações e orientação para boas práticas.</p>
-            <div class="row" style="margin-top:12px">
-              <a class="btn primary" href="#contato">Solicitar orçamento</a>
-              <a class="btn" href="#conteudos">Ver conteúdos</a>
-            </div>
-          </div>
+<nav class="navbar">
+  <a class="active" href="index.html">Início</a>
+  <a href="paginas/avaliacao.html">Avaliação</a>
+  <a href="paginas/primeiros-socorros.html">Primeiros Socorros</a>
+  <a href="paginas/combate-incendio.html">Combate a Incêndio</a>
+  <a href="paginas/prevencao-acidentes.html">Prevenção (Trabalho)</a>
+  <a href="paginas/evacuacao.html">Evacuação</a>
+  <a href="paginas/epi-epc.html">EPI/EPC</a>
+  <a href="paginas/plano-emergencia.html">Plano de Emergência</a>
+</nav>
 
-          <div class="hero-media">
-            <div class="hero-img">
-              <strong>IMG-HERO-001</strong>
-              <span>Imagem de fundo (bombeiro/treinamento) — substituir depois</span>
-            </div>
-            <div class="hero-mini-grid">
-              <div class="mini">
-                <strong>IMG-HERO-002</strong>
-                <span>Treinamento com extintor</span>
-              </div>
-              <div class="mini">
-                <strong>IMG-HERO-003</strong>
-                <span>Primeiros socorros (RCP/DEA)</span>
-              </div>
-              <div class="mini">
-                <strong>IMG-HERO-004</strong>
-                <span>Rotas de fuga e sinalização</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CURSOS -->
-    <section class="section-block" id="cursos">
-      <div class="row" style="justify-content:space-between; align-items:flex-end">
-        <h2 class="h1" style="margin:0">Cursos e treinamentos</h2>
-        <span class="badge">Personalizável</span>
-      </div>
-      <p class="p">Ajuste carga horária, níveis e foco conforme o risco da ocupação e exigências locais. Abaixo, uma estrutura sugerida (substitua as imagens quando quiser).</p>
-
-      <div class="cards-3">
-        <article class="card pad course">
-          <div class="course-img">
-            <strong>IMG-CURSO-001</strong>
-            <span>Combate e uso de extintores</span>
-          </div>
-          <h3 class="course-title">Brigadista — Combate e abandono</h3>
-          <p class="p">Classes de incêndio, agentes extintores, técnica PASS, procedimentos iniciais, comunicação e apoio ao abandono de área.</p>
-          <div class="row">
-            <span class="badge">Extintores</span>
-            <span class="badge">Hidrantes</span>
-            <span class="badge">Evacuação</span>
-          </div>
-        </article>
-
-        <article class="card pad course">
-          <div class="course-img">
-            <strong>IMG-CURSO-002</strong>
-            <span>RCP/DEA e atendimento inicial</span>
-          </div>
-          <h3 class="course-title">Primeiros socorros — base prática</h3>
-          <p class="p">Segurança de cena, acionamento, RCP/DEA, OVACE, hemorragias e queimaduras. Ideal para equipes e escolas.</p>
-          <div class="row">
-            <span class="badge">RCP</span>
-            <span class="badge">DEA</span>
-            <span class="badge">OVACE</span>
-          </div>
-        </article>
-
-        <article class="card pad course">
-          <div class="course-img">
-            <strong>IMG-CURSO-003</strong>
-            <span>Prevenção e plano de emergência</span>
-          </div>
-          <h3 class="course-title">Prevenção — rotas e planejamento</h3>
-          <p class="p">Inspeções, sinalização, rotas de fuga, ponto de encontro, simulados, plano de emergência e melhoria contínua.</p>
-          <div class="row">
-            <span class="badge">Checklist</span>
-            <span class="badge">Rotas</span>
-            <span class="badge">Simulados</span>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- CONTEÚDOS (APP) -->
-    <section class="section-block" id="conteudos">
-      <div class="row" style="justify-content:space-between; align-items:flex-end">
-        <h2 class="h1" style="margin:0">Conteúdos (app)</h2>
-        <span class="badge">Offline parcial</span>
-      </div>
-      <p class="p">Navegue pelas abas e use os códigos de imagem como placeholders. Depois, você pode substituir em <code>/assets</code>.</p>
-    </section>
-    <div class="grid">
-      <section class="card pad">
-        <h1 class="h1" id="screenTitle">Carregando…</h1>
-        <p class="p" id="screenIntro"></p>
-
-        <div id="sections"></div>
-
-        <hr class="sep"/>
-        <div class="row" style="justify-content:space-between; align-items:center">
-          <span class="badge">Referências (links)</span>
-          <span class="badge">SP • 2026</span>
-        </div>
-        <ul id="refs" class="p" style="margin-top:10px; padding-left:18px"></ul>
-
-        <div class="footer">
-          Criado por <strong>Jonatan Vale</strong> — <strong>Academia do Brigadista</strong>
-        </div>
-      </section>
-
-      <aside class="card pad">
-        <h2 class="h1">Guia rápido</h2>
-        <p class="p">Este app é <strong>mobile-first</strong> e funciona offline parcial (cache do navegador). Conteúdo pode ser expandido via <strong>DLC</strong> sem mexer no core.</p>
-
-        <div class="kbd">
-          <strong>Como usar</strong><br/>
-          • Navegue pelas abas abaixo<br/>
-          • As imagens estão como <em>placeholders</em> (códigos) para você gerar depois com IA e substituir em <code>/assets</code><br/>
-          • A prova final fica na aba <strong>Avaliação</strong> (embed do Google Forms via Admin)
-        </div>
-
-        <hr class="sep"/>
-
-        <div class="row">
-          <span class="badge">UI premium</span>
-          <span class="badge">Código limpo</span>
-          <span class="badge">Expansível</span>
-        </div>
-      </aside>
+<main class="container">
+  <section class="card">
+    <span class="badge">Material de apoio</span>
+    <h2>Sobre o curso</h2>
+    <p>
+      Este site reúne tópicos essenciais aprendidos por um brigadista: prevenção, resposta a emergências,
+      abandono de área, combate a princípios de incêndio e primeiros socorros.
+    </p>
+    <div class="notice">
+      <strong>Atenção:</strong> este conteúdo é educativo e deve ser aplicado conforme o plano de emergência da sua instituição,
+      instruções do instrutor e normas vigentes.
     </div>
+    <p class="small">Dica: use o menu azul para navegar por módulos e revisar rapidamente cada tema.</p>
+  </section>
 
-    <!-- CONTATO -->
-    <section class="section-block" id="contato">
-      <div class="contact card pad">
-        <div>
-          <h2 class="h1" style="margin:0 0 8px 0">Contato e orçamento</h2>
-          <p class="p">Preencha os dados abaixo (placeholders) e substitua pelos seus canais oficiais (WhatsApp, e-mail, Instagram, etc.).</p>
-          <div class="row" style="margin-top:10px">
-            <span class="badge">WhatsApp: (XX) XXXXX-XXXX</span>
-            <span class="badge">E-mail: contato@seudominio.com</span>
-            <span class="badge">Cidade/UF: São Paulo • SP</span>
-          </div>
-          <p class="p" style="margin-top:10px">Imagem sugerida: fachada/treinamento/viatura estilizada (sem logos de terceiros) — código <strong>IMG-CONTATO-001</strong>.</p>
-        </div>
-        <div class="contact-img">
-          <strong>IMG-CONTATO-001</strong>
-          <span>Imagem de fundo do contato — substituir depois</span>
-        </div>
-      </div>
-    </section>
-  </main>
+  <section class="grid">
+    <a class="tile" href="paginas/combate-incendio.html">
+      <h3>Combate a Incêndio</h3>
+      <p>Classes de fogo, agentes extintores, extintores, hidrantes e segurança.</p>
+    </a>
 
-  <nav class="tabs" aria-label="Navegação principal">
-    <!-- JS renderiza -->
-  </nav>
+    <a class="tile" href="paginas/prevencao-acidentes.html">
+      <h3>Prevenção de Acidentes</h3>
+      <p>Riscos, boas práticas, sinalização, rotinas e comunicação de ocorrências.</p>
+    </a>
 
-  <!-- Serial Gate -->
-  <div class="modal" role="dialog" aria-modal="true" aria-label="Acesso por serial">
-    <div class="box">
-      <div class="row" style="justify-content:space-between; align-items:flex-start">
-        <div>
-          <h2 class="h1" style="margin:0">Acesso por Serial</h2>
-          <p class="p" style="margin-top:6px">Informe seu serial no <strong>primeiro acesso</strong>. Depois, você não precisará digitar novamente neste navegador.</p>
-        </div>
-        <span class="badge">Segurança</span>
-      </div>
-      <div class="field">
-        <label for="serialInput">Serial</label>
-        <input class="input" id="serialInput" placeholder="XXXX-XXXX-XXXX-XXXX-XXXX" autocomplete="off" inputmode="latin"/>
-      </div>
-      <div class="row" style="margin-top:12px; justify-content:flex-end">
-        <button class="btn primary" id="serialBtn">Liberar acesso</button>
-      </div>
-      <p class="p" style="margin-top:10px; font-size:12px">Dica: se você trocar de navegador ou limpar dados do site, o serial será solicitado novamente.</p>
-    </div>
-  </div>
+    <a class="tile" href="paginas/evacuacao.html">
+      <h3>Evacuação</h3>
+      <p>Rotas de fuga, ponto de encontro, varredura e organização do abandono.</p>
+    </a>
 
-  <script src="app.config.js"></script>
-  <script type="module" src="js/app.js"></script>
+    <a class="tile" href="paginas/epi-epc.html">
+      <h3>EPI/EPC</h3>
+      <p>Tipos, uso correto, limitações, inspeção e conservação.</p>
+    </a>
+
+    <a class="tile" href="paginas/plano-emergencia.html">
+      <h3>Plano de Emergência</h3>
+      <p>Acionamento, responsabilidades, comunicação e registro pós-evento.</p>
+    </a>
+
+    <a class="tile" href="paginas/primeiros-socorros.html">
+      <h3>Primeiros Socorros</h3>
+      <p>Avaliação inicial, RCP, hemorragias, fraturas e entorses (resumo).</p>
+    </a>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© Curso de Brigadista • Site estático para GitHub Pages</p>
+</footer>
+
 </body>
 </html>
