@@ -4,7 +4,7 @@
  */
 window.APP_CONFIG = {
   appName: "Academia do Brigadista",
-  logoPath: "assets/logo-placeholder.svg", // troque para assets/logo.png quando enviar o logo oficial
+  logoPath: "assets/logo.png",
   adminPath: "admin.html",
   serial: {
     // hashes SHA-256 dos seriais válidos

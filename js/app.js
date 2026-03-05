@@ -161,6 +161,26 @@ async function init(){
 
   // admin quick
   $("#adminBtn").addEventListener("click", ()=> location.href = window.APP_CONFIG.adminPath);
+
+  // mobile menu
+  const drawer = $("#menuDrawer");
+  const openBtn = $("#menuBtn");
+  const closeBtn = $("#menuCloseBtn");
+  const close = ()=>{
+    drawer.classList.remove("show");
+    drawer.setAttribute("aria-hidden", "true");
+  };
+  const open = ()=>{
+    drawer.classList.add("show");
+    drawer.setAttribute("aria-hidden", "false");
+  };
+  if(openBtn && drawer){
+    openBtn.addEventListener("click", open);
+    closeBtn?.addEventListener("click", close);
+    drawer.addEventListener("click", (e)=>{ if(e.target === drawer) close(); });
+    drawer.querySelectorAll("a").forEach(a=> a.addEventListener("click", close));
+    document.addEventListener("keydown", (e)=>{ if(e.key === "Escape") close(); });
+  }
 }
 
 init().catch(e=>{
